@@ -1,46 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Online Museum</title>
-    
-</head>
-<body>
-    <header></header>
-    <h1>Rijksmuseum</h1>
-    <div class="head">
-    </div>
-    <img src="media/nachtwacht.jpeg" alt="">
-    <footer>
-        <button id="show-more">More</button>
-    <div>
-        <div class="model" id="model1">Contact
-            Telefoonnummer: 0612345678 <br>
-            Email: bla@Rijksmuseum.nl
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OnlineMuseum</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header> 
+            <div class="Banner">
+                <h1>RIJKSMUSEUM</h1> 
+                <button class="tickets"><a href="https://www.rijksmuseum.nl/nl/tickets" class="button button-primary">
+                    Tickets
+                  </a></button>
+                <button class="Taal">🌐</button>
+            </div>
+        </header>
+        <figure class="foto">
+            <img src="media/nachtwacht.jpeg" alt="nachtwacht" class="nachtwacht">
+            <p class="lorem">Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Saepe nulla molestiae voluptates possimus iure et, 
+                numquam veritatis! Culpa esse nesciunt earum maiores. 
+                Quae commodi laudantium odit perspiciatis similique eius accusamus.
+                Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Saepe nulla molestiae voluptates possimus iure et, 
+                numquam veritatis! Culpa esse nesciunt earum maiores. 
+                Quae commodi laudantium odit perspiciatis similique eius accusamus.</p>
+        </figure>
+        <div class="opties">
+            <h3>Kunstwerken</h3>
+            <h3>Workshops</h3>
+            <h3>Interactieve Route</h3>
+            <h3>Info</h3>  
+        </div>  
+        <div class="foot">
+            <div class="sponsors">
+                <h4>Sponsors:</h4>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
         </div>
- </div>
-    </footer>
-    <script>
-        var button = document.getElementById("show-more")
 
-        button.onclick = function(){
-            
-            for (var i = 0; i < 3; i++) {
-            
-            var content = document.getElementById("model" + (i + 1));
-
-            var isOpen = content.classList.toggle('open');
-
-            button.innerHTML = isOpen ? "Less" : "More";
-        }
-
-        };
-    </script>
-</body>
-
+        <section class="Kunstwerken">
+            <h2 class="head" >Kunstwerken</h2>
+            <div>
+                <div class="slideshow">
+                    <div class="slide-wrapper">
+                        <div class="image-container"></div>
+                        <div class="image-container"></div>
+                        <div class="image-container"></div>
+                        <div class="image-container"></div>
+                        <div class="image-container"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
 </html>
-
-
