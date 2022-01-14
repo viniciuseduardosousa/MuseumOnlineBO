@@ -95,45 +95,6 @@ div > h3:hover{
 .picca{
     height: 40vw;
 }
-
-
-
-
-.slideshow {
-overflow: hidden;
-height: 500px;
-width: 728px;
-margin: 0 auto;
-}
-.slide-wrapper {
-width: 3000px;
-animation: slide 18s infinite;
-}
-.image-container{
-margin-bottom: px;
-float: left;
-height: 1000px;
-width: 728px;
-}
-
-.image-container:nth-child(1) {
-background-image: url("https://i1.wp.com/theorangebackpack.nl/wp-content/uploads/2020/04/Amsterdam-Rijksmuseum-2.jpg?resize=1024%2C683&ssl=1") ;
-}
-.image-container:nth-child(2) {
-background-image: url("media/nachtwacht.jpeg") ;
-}
-.image-container:nth-child(3) {
-background-image: url("https://i.pinimg.com/originals/4c/a3/31/4ca331ce09f13cf60125a6fd28ba837d.jpg") ;
-}
-.image-container:nth-child(4) {
-background-image: url("https://i.pinimg.com/736x/22/0b/49/220b495265ec067391b031d69d022b0a.jpg") ;
-}
-@keyframes slide {
-20% {margin-left: 0px;}
-30% {margin-left: -728px;}
-50% {margin-left: -728px;}
-60% {margin-left: -1456px;}
-70% {margin-left: -1456px;}
-80% {margin-left: -2184px;}
-90% {margin-left: -2184px;}
+nav > p{
+    margin-left: 100px;
 }
